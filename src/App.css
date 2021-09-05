@@ -36,3 +36,71 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.sidebar-container {
+  overflow: hidden;
+  overflow-y: hidden;
+  width: 80px;
+  height: 100%;
+  padding-top: 0px;
+  background-color: blue;
+  padding-right: 10px;
+}
+
+.sidebar-container > div > img {
+  width: 120%;
+  margin-left: -10px;
+}
+
+.twitter-inside:hover,
+.discord:hover {
+  -webkit-text-fill-color: #fff;
+}
+.sidenav{
+  height: 100%;
+  width: 80px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  
+  background-color: #004E96;
+}
+.crystyl-logo {
+  height: 50px;
+  margin-bottom: 30px;
+  -webkit-app-region: drag;
+}
+.recent-container{
+ position: relative;
+ left: 5%;
+  height: 100%;
+  width: 20rem;
+
+}
+.header-recent{
+  display: flex;
+  justify-content: space-between;
+}
+.messageContainer{
+  display: flex;
+  justify-content: center;
+}
+.chat-container{
+ display: flex;
+ flex-direction: column;
+  width: 40%;
+  height:100vh;
+  border-color: brown;
+}
+.profile-container{
+  background-color: #EDEEEF;
+  width: 30%;
+}
